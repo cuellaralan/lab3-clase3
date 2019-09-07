@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="./funciones.js"></script>
+    <link rel="stylesheet" href="./estilos.css">
+    <title>Clase3</title>
+</head>
+
+<body>
+    <header>
+        <title>Hoja de estilos</title>
+        <h1>Datos personales</h1>
+    </header>
+    <main>
+        <section>
+            <div class="cuadro">
+                <label for="nombre">Nombre</label>
+                <br>
+                <input type="text" value="" class="texto" id="nombre">
+                <br>
+                <label for="apellido">Apellido</label>
+                <br>
+                <input type="text" value="" class="texto" id="apellido">
+                <br>
+                <input type="button" name="Guardar" id="Guardar" value="Guardar" class="boton">
+                <br>
+            </div>
+        </section>
+        <section>
+            <h2>Tabla de personas</h2>
+            <div>
+                <table border="1" id="tablaprueba">
+                    <thead id="column">
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Action</th>
+                        <!-- <a href=""></a> -->
+                    </thead>
+                    <tbody>
+                        <tr id="row">
+                            <td>Peter</td>
+                            <td>Griffin</td>
+                            <td>
+                                <a href="" onclick="Borrar(event)" id="borrar">Borrar</a>
+                            </td>
+                            <!-- <td id="column1">1</td> -->
+                            <!-- <td id="column2">2</td> -->
+                            <!-- <td id="column3">3</td> -->
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <!-- <td>Resultado guardados</td> -->
+                        </tr>
+                    </tfoot>
+            </div>
+
+
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
